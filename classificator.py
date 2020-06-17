@@ -79,6 +79,7 @@ x_train_circ = [convert_to_circuit(x) for x in x_train_bin]
 x_test_circ = [convert_to_circuit(x) for x in x_test_bin]
 
 SVGCircuit(x_train_circ[0])
+# test
 # plt.imshow(x_test_small[0, :, :, 0])
 # plt.colorbar()
 # plt.show()
